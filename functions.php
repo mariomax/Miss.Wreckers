@@ -23,3 +23,13 @@ function child_enqueue_styles() {
 }
 
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
+
+/*
+ * Function to link to Adobe Fonts Typekit
+ */
+add_action( 'wp_head', function() {
+	?>
+	<link rel="stylesheet" href="https://use.typekit.net/kcj8myg.css">
+	<?php
+} );
+

@@ -10,6 +10,41 @@ Text Domain: miss-wreckers
 Template: astra
 */
 
+/* Adobe Typekit: kcj8myg
+Sketchnote Square { font-weight: 400; }
+Yrsa SemiBold { font-weight: 600; }
+Yrsa Regular { font-weight: 400; } */
+
+body * {
+  font-family: yrsa, serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h1,
+h2,
+h2 a,
+h3,
+ul.elementor-nav-menu li a,
+a.button,
+.woocommerce button,
+button span.elementor-button-text {
+  font-family: sketchnote-square,sans-serif;
+  font-weight: 400 !important;
+  font-style: normal;
+}
+
+ul.elementor-nav-menu li a,
+a.button,
+.woocommerce button,
+button span.elementor-button-text {
+  text-transform: uppercase;
+}
+
+#footer-credit a {
+  color: #818A91;
+}
+
 #left-side {
   height: 100vh;
 }
