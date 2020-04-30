@@ -10,14 +10,11 @@ Text Domain: miss-wreckers
 Template: astra
 */
 
-/* Adobe Typekit: kcj8myg
-Sketchnote Square { font-weight: 400; }
-Yrsa SemiBold { font-weight: 600; }
-Yrsa Regular { font-weight: 400; } */
+/* Adobe Typekit: kcj8myg */
 
 body * {
-  font-family: yrsa, serif;
-  font-weight: 600;
+  font-family: droid-sans, sans-serif;
+  font-weight: 500;
   font-style: normal;
 }
 
