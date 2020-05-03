@@ -161,6 +161,15 @@ button span.elementor-button-text {
 }
 
 /* WooCommerce edits by media query. */
+#mr-categories .woocommerce ul.products li.product a img {
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+  margin: 0;
+}
+
+#mr-archive .woocommerce ul.products li.product {
+  border-radius: 3px;
+}
+
 @media (max-width: 544px) {
   .woocommerce-page[class*="columns-"] ul.products li.product:nth-child(n) {
     margin-right: 0;
