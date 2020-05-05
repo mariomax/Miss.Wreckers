@@ -12,6 +12,7 @@ Template: astra
 
 /* Adobe Typekit: kcj8myg */
 :root {
+  --black: #121212;
   --brown: #251515;
   --gold: #87700D;
   --yellow: #E8C521;
@@ -21,8 +22,8 @@ Template: astra
 }
 
 body * {
-  font-family: droid-sans, sans-serif;
-  font-weight: 500;
+  font-family: oxygen, sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -35,8 +36,8 @@ a.button,
 .woocommerce button,
 span .elementor-button-text,
 button span.elementor-button-text {
-  font-family: sketchnote-square,sans-serif;
-  font-weight: 400 !important;
+  font-family: oxygen, sans-serif;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -52,6 +53,7 @@ h1,
 #hero-title h2,
 #hero-title h2 a {
   color: var(--cream);
+  font-weight: 400;
 }
 
 ul.elementor-nav-menu li a,
@@ -66,24 +68,10 @@ button span.elementor-button-text {
   color: #818A91;
 }
 
-#left-side {
-  height: 100vh;
-}
-
-#side-nav {
-  -webkit-box-flex: 1;
-  flex: auto;
-}
-
-#side-social {
-  flex-basis: 10%;
-}
-
 @media screen and (max-width: 767px) {
+
   #left-side .elementor-widget-wrap,
   #left-side-custom .elementor-widget-wrap {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     flex-direction: column;
   }
 
@@ -92,7 +80,6 @@ button span.elementor-button-text {
   }
 
   .elementor-nav-menu__align-left .elementor-nav-menu {
-    -webkit-box-pack: justify;
     justify-content: space-between;
   }
 
@@ -101,7 +88,6 @@ button span.elementor-button-text {
   }
 
   #side-nav nav ul {
-    display: -webkit-box;
     display: flex;
   }
 
@@ -111,23 +97,28 @@ button span.elementor-button-text {
 }
 
 @media screen and (min-width: 768px) {
+
   #left-side,
   #left-side-custom {
     position: fixed;
   }
 
+  #left-side,
   #left-side-custom {
     height: 100vh;
   }
 
+  #side-nav {
+    flex: auto;
+  }
+
+  #side-social,
   #left-side-custom #side-social {
     flex-basis: 10%;
   }
 
   #left-side .elementor-widget-wrap,
   #left-side-custom .elementor-widget-wrap {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     flex-direction: column;
   }
 
@@ -137,6 +128,7 @@ button span.elementor-button-text {
 }
 
 @media screen and (min-width: 1024px) {
+
   #left-side,
   #left-side-custom {
     width: 25%;
@@ -149,6 +141,7 @@ button span.elementor-button-text {
 }
 
 @media screen and (min-width: 1200px) {
+
   #left-side,
   #left-side-custom {
     width: 20%;
@@ -162,12 +155,16 @@ button span.elementor-button-text {
 
 /* WooCommerce edits by media query. */
 #mr-categories .woocommerce ul.products li.product a img {
-  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   margin: 0;
 }
 
 #mr-archive .woocommerce ul.products li.product {
   border-radius: 3px;
+}
+
+.woocommerce a.button {
+  padding: 12px;
 }
 
 @media (max-width: 544px) {
