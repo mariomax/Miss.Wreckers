@@ -85,6 +85,8 @@ button span.elementor-button-text {
 
   #left-side .elementor-widget-wrap,
   #left-side-custom .elementor-widget-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     flex-direction: column;
   }
 
@@ -93,6 +95,7 @@ button span.elementor-button-text {
   }
 
   .elementor-nav-menu__align-left .elementor-nav-menu {
+    -webkit-box-pack: justify;
     justify-content: space-between;
   }
 
@@ -101,6 +104,7 @@ button span.elementor-button-text {
   }
 
   #side-nav nav ul {
+    display: -webkit-box;
     display: flex;
   }
 
@@ -122,6 +126,7 @@ button span.elementor-button-text {
   }
 
   #side-nav {
+    -webkit-box-flex: 1;
     flex: auto;
   }
 
@@ -132,6 +137,8 @@ button span.elementor-button-text {
 
   #left-side .elementor-widget-wrap,
   #left-side-custom .elementor-widget-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     flex-direction: column;
   }
 
