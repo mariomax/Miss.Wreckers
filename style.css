@@ -64,6 +64,10 @@ button span.elementor-button-text {
   text-transform: uppercase;
 }
 
+#header-title {
+  margin-bottom: 0;
+}
+
 #mr-intro .no-margin {
   margin-bottom: 0;
 }
